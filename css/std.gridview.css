@@ -1,0 +1,138 @@
+form.gridview { text-align: left; font-size: 12px; }
+div.gridview-container {
+    font-size: 11px;
+    margin-left:auto;
+    margin-right:auto;
+    cursor: default;
+    overflow: auto;
+    border-left: solid 1px #d8d8d8;
+    border-top: solid 1px #d8d8d8;
+    border-bottom: solid 1px #d8d8d8;
+}
+div.gridview-container table {
+    empty-cells:show;
+    border-spacing: 0;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+div.gridview-container table thead td {
+    border-right: solid 1px #d0d0d0;
+    border-left: solid 1px #eeeeee;
+    border-bottom: solid 1px #d0d0d0;
+    border-top: solid 1px #f9f9f9;
+    vertical-align: bottom;
+    border-collapse: collapse;
+    padding-right: 4px;
+    font-weight: bold;
+    font-size: 11px;
+    color: #555;
+}
+td.gridview-header-off {
+    background-repeat: repeat-x;
+    background-position: top;
+    background-image: url(../img/std.grid.headers.bg.gif);
+    background-color: #ebecee;
+}
+td.gridview-header-on, td.gridview-header-sorted-asc, td.gridview-header-sorted-desc {
+    background-repeat: repeat-x;
+    background-position: top;
+    background-image: url(../img/std.grid.headers.bg.over.gif);
+    background-color: #b7e7fb;
+}
+td.gridview-header-sorted-asc div, td.gridview-header-sorted-desc div {
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+td.gridview-header-sorted-asc div { background-image: url('../img/std.grid.sort.desc.inactive.gif'); }
+td.gridview-header-sorted-desc div { background-image: url('../img/std.grid.sort.asc.inactive.gif'); }
+div.gridview-container table thead td div {
+    padding: 4px;
+    padding-right: 20px;
+}
+div.gridview-container table tbody tr.grouping td {
+    background-image: url('../img/std.grid.headers.bg.gif');
+    background-repeat: repeat-x;
+    white-space: nowrap;
+    background-color: #fff;
+    background-position: bottom left;
+    color: #555;
+    font-weight: bold;
+    padding: 6px;
+    padding-left: 16px;
+    border-bottom: solid 1px #d0d0d0;
+    border-top: solid 1px #d0d0d0;
+}
+div.gridview-container table tbody td {
+    vertical-align: top;
+    border-collapse: collapse;
+    border-right: solid 1px #d8d8d8;
+    background-color: #fafafa;
+}
+div.gridview-container table tbody tr.alt td {
+    vertical-align: top;
+    border-collapse: collapse;
+    background-color: #f0f0f0;
+}
+div.gridview-container table tbody td div { padding: 4px; }
+div.gridview-container table tbody td div a.rowcommand {
+    color: #0033CC;
+    text-decoration: none;
+}
+div.gridview-container table thead td.gridview-rowcommand-header {
+    background-repeat: repeat-x;
+    background-position: top;
+    background-image: url('../img/std.grid.headers.bg.gif');
+    background-color: #ebecee;
+    width: 24px;
+}
+div.gridview-container table tbody td.iconic div a.iconic {
+    width: 16px;
+    height: 16px;
+    display: block;
+    float: left;
+    margin-top: -2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+a.iconic-details { background-image: url('../img/std.grid.command.details.gif'); }
+a.iconic-edit { background-image: url('../img/std.grid.command.edit.gif'); }
+a.iconic-delete { background-image: url('../img/std.grid.command.delete.gif'); }
+a.iconic-select { background-image: url('../img/std.grid.command.select.gif'); }
+div.gridview-container table tbody td div a.rowcommand:hover {
+    color: #0033CC;
+    text-decoration: underline;
+}
+a.gridview-toolbar-search span { background-image: url(../img/std.grid.find.gif); }
+a.gridview-toolbar-group span { background-image: url(../img/std.grid.group.gif); }
+a.gridview-toolbar-filter span { background-image: url(../img/std.grid.filter.gif); }
+a.gridview-toolbar-tools span { background-image: url(../img/std.grid.export.gif); }
+td.gridview-pager-top span.view-toolbar-split { float: right; }
+td.gridview-pager-top a {
+    float: right;
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+td.gridview-pager-bottom a {
+    float: left;
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+span.gridview-pager-page {
+    display: block;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: middle;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 6px;
+    color: #666;
+    font-size: 11px;
+}
+td.gridview-pager-top span.gridview-pager-page { float:right; }

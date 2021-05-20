@@ -1,0 +1,15 @@
+div.vizview-caption {
+    border-style:none;
+    color:#333333;
+    font-weight:normal;
+    margin:0;
+    padding: 8px;
+}
+div.vizview-content {
+    display: block;
+    overflow: auto;
+    margin: 0px;
+    padding: 10px;
+    border: 1px solid #d8d8d8;
+    background-color: #fafafa;
+}

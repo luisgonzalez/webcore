@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root typeName="KeyedCollectionWrapper">
+    <isReadOnly typeName="bool"></isReadOnly>
+    <collectionItems typeName="array">
+        <arrayItem key="application" typeName="array">
+            <arrayItem key="applicationCulture">en-US</arrayItem>
+            <arrayItem key="applicationCompany">Company Name</arrayItem>
+            <arrayItem key="applicationName">WebCore 3.0 Application Name</arrayItem>
+            <arrayItem key="applicationVersion">1.0.0</arrayItem>
+            <arrayItem key="applicationTimezone">America/Mexico_City</arrayItem>
+            <arrayItem key="applicationSessionHandler"></arrayItem>
+        </arrayItem>
+        <arrayItem key="caching" typeName="array">
+            <arrayItem key="enable">0</arrayItem>
+            <arrayItem key="servers" typeName="array">
+                <arrayItem key="0">127.0.0.1</arrayItem>
+            </arrayItem>
+            <arrayItem key="ports" typeName="array">
+                <arrayItem key="0" typeName="int">11211</arrayItem>
+            </arrayItem>
+        </arrayItem>
+        <arrayItem key="data" typeName="array">
+            <arrayItem key="connectionManager">MySqlConnection</arrayItem>
+            <arrayItem key="server">localhost</arrayItem>
+            <arrayItem key="username">root</arrayItem>
+            <arrayItem key="password"></arrayItem>
+            <arrayItem key="database">webcore_samples</arrayItem>
+            <arrayItem key="port" typeName="int">3306</arrayItem>
+            <arrayItem key="concurrencyMode">0</arrayItem>
+            <arrayItem key="allowDropCommands">0</arrayItem>
+            <arrayItem key="disableDeferredExecution">0</arrayItem>
+            <arrayItem key="logicalDeleteField">sys_deleted_date</arrayItem>
+        </arrayItem>
+        <arrayItem key="logging" typeName="array">
+            <arrayItem key="logManagers" typeName="array">
+                <arrayItem key="0">FileLogProvider</arrayItem>
+            </arrayItem>
+            <arrayItem key="logFile">webcore.log</arrayItem>
+            <arrayItem key="logLevel" typeName="int">2</arrayItem>
+            <arrayItem key="logEntity">Log</arrayItem>
+        </arrayItem>
+        <arrayItem key="compression" typeName="array">
+            <arrayItem key="enable">0</arrayItem>
+            <arrayItem key="compressionProvider">ResourcesCompressor</arrayItem>
+            <arrayItem key="store">cacheManager</arrayItem>
+        </arrayItem>
+        <arrayItem key="security" typeName="array">
+            <arrayItem key="hashAlgorithm">md5</arrayItem>
+            <arrayItem key="membershipProvider">DatabaseMembershipProvider</arrayItem>
+            <arrayItem key="authenticationProvider">DatabaseAuthenticationProvider</arrayItem>
+            <arrayItem key="userEntity">User</arrayItem>
+            <arrayItem key="userEntityKey">UserId</arrayItem>
+            <arrayItem key="roleEntity">Role</arrayItem>
+            <arrayItem key="roleEntityFields">rolename</arrayItem>
+            <arrayItem key="userRoleEntity">UserInRole</arrayItem>
+            <arrayItem key="userRoleEntityUserKey">userId</arrayItem>
+            <arrayItem key="loginPage">login.php</arrayItem>
+            <arrayItem key="userEntityFields">user,password,enabled</arrayItem>
+            <arrayItem key="welcomePage">login.php</arrayItem>
+        </arrayItem>
+        <arrayItem key="mail" typeName="array">
+            <arrayItem key="server">localhost</arrayItem>
+            <arrayItem key="port">25</arrayItem>
+            <arrayItem key="username"></arrayItem>
+            <arrayItem key="password"></arrayItem>
+        </arrayItem>
+        <arrayItem key="dateTimeFormat" typeName="array">
+            <arrayItem key="dayNames" typeName="array">
+                <arrayItem key="0">Sunday</arrayItem>
+                <arrayItem key="1">Monday</arrayItem>
+                <arrayItem key="2">Tuesday</arrayItem>
+                <arrayItem key="3">Wednesday</arrayItem>
+                <arrayItem key="4">Thursday</arrayItem>
+                <arrayItem key="5">Friday</arrayItem>
+                <arrayItem key="6">Saturday</arrayItem>
+            </arrayItem>
+            <arrayItem key="longDate">d-m-Y</arrayItem>
+            <arrayItem key="longDateTime">d-m-Y h:m:s</arrayItem>
+            <arrayItem key="longTime">h:m:s</arrayItem>
+            <arrayItem key="monthNames" typeName="array">
+                <arrayItem key="0">January</arrayItem>
+                <arrayItem key="1">February</arrayItem>
+                <arrayItem key="2">March</arrayItem>
+                <arrayItem key="3">April</arrayItem>
+                <arrayItem key="4">May</arrayItem>
+                <arrayItem key="5">June</arrayItem>
+                <arrayItem key="6">July</arrayItem>
+                <arrayItem key="7">August</arrayItem>
+                <arrayItem key="8">September</arrayItem>
+                <arrayItem key="9">October</arrayItem>
+                <arrayItem key="10">November</arrayItem>
+                <arrayItem key="11">December</arrayItem>
+            </arrayItem>
+            <arrayItem key="shortDate">d-m-Y</arrayItem>
+            <arrayItem key="shortDateTime">d-m-Y h:m</arrayItem>
+            <arrayItem key="shortTime">h:m</arrayItem>
+            <arrayItem key="firstDayWeek">0</arrayItem>
+        </arrayItem>
+        <arrayItem key="numberFormat" typeName="array">
+            <arrayItem key="currencyFormat">$#,###.##</arrayItem>
+            <arrayItem key="currencySymbol">$</arrayItem>
+            <arrayItem key="decimalDigit">.</arrayItem>
+            <arrayItem key="numberFormat">#,###.##</arrayItem>
+        </arrayItem>
+    </collectionItems>
+</root>

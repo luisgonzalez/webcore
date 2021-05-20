@@ -1,0 +1,154 @@
+form.repeaterview { text-align: left; font-size: 12px; }
+div.repeaterview-container { background-color: #FAFAFA; border: 1px solid #D8D8D8; font-size: 11px; }
+div.repeaterview-container-accordion { border-top-width: 0; }
+div.repeaterview-item-breaker { clear: both;}
+div.repeaterview-item { border: 1px solid #D8D8D8; margin: 10px; background-color: #fff; }
+div.repeaterview-item-image img { border: 0; }
+div.repeaterview-item-container {
+    padding: 2px;
+    display: block;
+    line-height: 1.2em;
+    clear: both;
+    font-size: 11px;
+}
+div.repeaterview-item-caption {
+    font-weight: bolder;
+    margin-right: 6px;
+    color: #555;
+    width: 30%;
+    text-align: right;
+    float: left;
+    clear: left;
+}
+div.repeaterview-item-value { float: left; clear: right; }
+div.repeaterview-accordion-title, div.repeaterview-accordion-title-inactive {
+    cursor: pointer;
+    height: 22px;
+    line-height: 22px;
+    vertical-align: middle;
+    padding-left: 10px;
+    border-top: 1px solid #CCC;
+    white-space: nowrap;
+    overflow: hidden;
+}
+div.repeaterview-accordion-title {
+    background-color: #FAFAFA;
+    color: #555;
+    font-weight: bold;
+    border-bottom: 1px solid #CCC;
+    background-image:url('../img/std.grid.headers.bg.gif');
+    background-position:center top;
+    background-repeat: repeat-x;
+}
+div.repeaterview-accordion-title-inactive {
+    background-color: #F0F0F0;
+    background-image:url('../img/std.grid.headers.bg.gif');
+    background-position:center top;
+    background-repeat: repeat-x;
+    color: #333;
+}
+div.repeaterview-accordion-title-hover {
+    border-color: #9ebae1;
+    background-repeat: repeat-x;
+    background-position: top;
+    background-image: url('../img/std.grid.headers.bg.over.gif');
+    background-color: #b7e7fb;
+}
+div.repeaterview-container table tbody tr.alt td {
+    vertical-align: top;
+    border-collapse: collapse;
+    background-color: #f0f0f0;
+}
+div.repeaterview-accordion { clear: both; }
+div.repeaterview-accordion-item { display: block; }
+div.repeaterview-accordion-container {
+    padding: 4px;
+    display: block;
+    line-height: 1.2em;
+    clear: both;
+}
+div.repeaterview-item-buttonpanel {
+    clear: both;
+    background-color:#FAFAFA;
+    border-top: 1px solid #CCCCCC;
+    text-align: right;
+    padding: 4px;
+}
+div.repeaterview-item-footer { clear: both; padding-bottom: 6px; }
+div.repeaterview-nodata {
+    margin: auto;
+    padding: 0.4em;
+    font-weight: bold;
+    color: #555;
+}
+a.repeaterview-item-link { color: #006699; text-decoration: none; }
+a.repeaterview-item-link:hover { text-decoration: underline; }
+a.repeaterview-button { color: #006699; margin-right: 6px; line-height: 2em; text-decoration: none; }
+a.repeaterview-button:hover, a.repeaterview-button:focus { text-decoration: underline; }
+td.repeaterview-header, td.repeaterview-header-editable {
+    border-right: solid 1px #d0d0d0;
+    border-left: solid 1px #eeeeee;
+    border-bottom: solid 1px #d0d0d0;
+    border-top: solid 1px #f9f9f9;
+    vertical-align: bottom;
+    border-collapse: collapse;
+    padding-right: 4px;
+    font-weight: bold;
+    font-size: 11px;
+    color: #555;
+    background-repeat: repeat-x;
+    background-position: top;
+    background-image: url(../img/std.grid.headers.bg.gif);
+    background-color: #ebecee;
+}
+td.repeaterview-header-editable
+{
+    width: 1%;
+}
+td.repeaterview-header-editable div
+{
+    width: 20px;
+    white-space: nowrap;
+}
+div.repeaterview-field-container
+{
+    float: left;
+}
+div.repeaterview-container table {
+    empty-cells:show;
+    padding: 0;
+    margin: 0;
+    border-spacing: 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+div.repeaterview-container table thead td div { padding: 4px; padding-right: 20px; }
+td.repeaterview-cell, td.repeaterview-celltotal {
+    vertical-align: top;
+    border-collapse: collapse;
+    border-right: solid 1px #d8d8d8;
+    background-color: #fafafa;
+    padding: 4px 6px;
+}
+td.repeaterview-celltotal { font-weight: bold; border-top: solid 1px #d8d8d8; }
+input.repeaterview-textfield { border:1px solid #BBBBBB; padding:3px; float: left; }
+select.repeaterview-select { width: auto; float: left; }
+a.repeaterview-additem, a.repeaterview-action {
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin-top: -2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+}
+a.repeaterview-additem { background: url('../img/std.form.gif') no-repeat 0 0; margin-top: 6px; }
+a.repeaterview-edititem { background-image: url('../img/std.grid.command.edit.gif'); margin-top: 3px; }
+a.repeaterview-deleteitem { background: url('../img/std.form.gif') no-repeat 0 -26px; margin-top: 3px; }
+a.repeaterview-saveitem { background-image: url('../img/std.grid.command.select.gif'); margin-top: 6px; }
+a.repeaterview-cancelitem { background: url('../img/std.form.gif') no-repeat 0 -52px; margin-top: 6px; }
+div.repeaterview-table { overflow: auto; }
+div.view-frame select.repeaterview-select { width: 200px; }
+div.view-frame form.repeaterview input, div.view-frame form.repeaterview select { font-size: 11px; }

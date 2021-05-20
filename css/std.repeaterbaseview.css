@@ -1,0 +1,64 @@
+a.view-pager-last, a.view-pager-last-off,
+a.view-pager-previous, a.view-pager-previous-off,
+a.view-pager-first, a.view-pager-first-off,
+a.view-pager-next, a.view-pager-next-off {
+    display: block;
+    float: left;
+    border: solid 1px #f0f0f0;
+    text-decoration: none;
+    font-weight: normal;
+    color: #000;
+    padding: 4px 6px;
+    font-size: 11px;
+    cursor: default;
+}
+a.view-pager-last:hover, a.view-pager-last-off:hover,
+a.view-pager-previous:hover, a.view-pager-previous-off:hover,
+a.view-pager-first:hover, a.view-pager-first-off:hover,
+a.view-pager-next:hover, a.view-pager-next-off:hover {
+    border-color: #9ebae1;
+    background-repeat: repeat-x;
+    background-position: top;
+    background-image: url(../img/std.grid.headers.bg.over.gif);
+    background-color: #b7e7fb;
+    color: #333;
+}
+a.view-pager-last span, a.view-pager-last-off span,
+a.view-pager-previous span, a.view-pager-previous-off span,
+a.view-pager-first span, a.view-pager-first-off span,
+a.view-pager-next span, a.view-pager-next-off span {
+    display: block;
+    overflow: hidden;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 0;
+    cursor: default;
+    background-image: url(../img/std.grid.gif);
+}
+a.view-pager-last span { background-position: 0 -52px; }
+a.view-pager-last-off span { background-position: 0 -78px; }
+a.view-pager-next span { background-position: 0 -104px; }
+a.view-pager-next-off span { background-position: 0 -130px; }
+a.view-pager-previous span { background-position: 0 -156px; }
+a.view-pager-previous-off span { background-position: 0 -182px; }
+a.view-pager-first span { background-position: 0 0; }
+a.view-pager-first-off span { background-position: 0 -26px; }
+td.view-pager-records { text-align: center; vertical-align: middle; color: #666; }
+span.view-pager-page span { font-weight: bold; }
+span.view-pager-page select { font-size: 11px; border: 1px solid #ccc; }
+div.view-pager { background-color: #F0F0F0; border-top:1px solid #D8D8D8; }
+td.view-pager-nodata, div.view-pager-nodata { background-color: #fafafa; }
+div.view-pager-nodata div {
+    margin: 20px;
+    padding: 20px;
+    padding-left: 50px;
+    font-size: 13px;
+    text-align: left;
+    background-color: #fffbcc;
+    border: 1px solid #d8d8d8;
+    background-image: url(../img/std.grid.info.gif);
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+}

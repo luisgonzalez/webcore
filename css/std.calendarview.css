@@ -1,0 +1,117 @@
+div.calendarview-content {
+	display: block;
+	overflow: auto;
+	padding-bottom: 20px;
+	border: 1px solid #d8d8d8;
+	background-color: #fafafa;
+}
+div.calendarview-container {
+    width: 600px;
+    padding: 3px;
+    background-color: #CCC;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div.calendarview-controls {
+    height: 22px;
+    padding: 2px;
+    background-color: #E3EFFF;
+}
+div.calendarview-controls div { height: 20px; float: left; }
+div.calendarview-button {
+    font-size: 10px;
+    width : 20px;
+    vertical-align: bottom;
+    cursor: pointer;
+    margin: 0px 2px 0px 2px;
+    border: 1px solid #E3EFFF; /* same as background color */
+}
+div.calendarview-button-hover { border: 1px solid #999; }
+div.calendarview-title { font-size: 18px; font-weight: bolder; width: 60%; text-align: center;}
+div.calendarview-title span { padding: 0px 10px 0px 10px; cursor:pointer; }
+div.calendarview-title-over span { background-color: #D9E5F5; }
+div.calendarview-nav, div.calendarview-views { width: 20%; }
+div.calendarview-views div { float: right; }
+table.calendarview-table { width: 100%; height: 480px; }
+table.calendarview-table th {
+    height: 17px;
+    font-size: 10px;
+    background-color: #E3EFFF;
+    color: #5593D7;
+    text-align: center;
+}
+table.calendarview-table td {
+    background-color: #fff;
+    border: 1px solid #999;
+    border-right: none;
+    border-bottom: none;
+    vertical-align: top;
+}
+div.calendarview-year {
+    background-color: #CCC;
+    width: 360px;
+    height: 240px;
+    position: absolute;
+}
+div.calendarview-month {
+    width: 120px;
+    height: 90px;
+    margin: 4px;
+    font-size: 12px;
+    vertical-align: middle;
+    text-align: center;
+}
+.calendarview-month-selected { background-color: #999; }
+th.calendarview-week-header { width: 2.7% !important; }
+td.calendarview-week-value {
+    font-size: 9px;
+    font-weight: bolder;
+    background-color: #333333 !important;
+    color: #e0e0e0;
+    text-align: center;
+    vertical-align: middle !important;
+    border-left: none !important;
+}
+div.calendarview-day-container { height:100%; overflow: hidden; }
+td.calendarview-day-selected { background-color: #E1E9F5 !important; }
+table.calendarview-table td.calendarview-day-offmonth { background-color: #A5BFE1; }
+div.calendarview-day-header {
+    background: transparent url(../img/std.calendar.header.day.gif) repeat-x scroll 0 0;
+    overflow: hidden;
+    color: #333;
+    font-size: 9px;
+    height: 14px !important;
+    padding: 1px 1px 0px 3px;
+    font-weight: bolder;
+    cursor: default;
+}
+div.calendarview-day-header-today {
+    background: url(../img/std.calendar.header.today.gif) repeat-x scroll 0 0;
+}
+div.calendarview-day-header-offmonth {
+    background: transparent url(../img/std.calendar.header.offmonth.gif) repeat-x scroll 0 0;
+}
+div.calendarview-view-month { background: transparent url(../img/std.calendar.view.month.gif) no-repeat scroll center; }
+div.calendarview-view-week { background: transparent url(../img/std.calendar.view.week.gif) no-repeat scroll center; }
+div.calendarview-view-day { background: transparent url(../img/std.calendar.view.day.gif) no-repeat scroll center;}
+div.calendarview-button-previous { background: transparent url(../img/std.calendar.button.previous.gif) no-repeat scroll center; }
+div.calendarview-button-next { background: transparent url(../img/std.calendar.button.next.gif) no-repeat scroll center; }
+div.calendarview-button-today { background: transparent url(../img/std.calendar.button.today.gif) no-repeat scroll center; margin-left: 10px;}
+
+/* TODO: Style Appointments */
+div.calendarview-appointment {
+    font-size: 10px;
+    width: 100%;
+    overflow: auto;
+    margin: 1px;
+}
+div.calendarview-appointment-header {
+    font-weight: bolder;
+    padding: 2px 0px 2px 0px;
+}
+div.calendarview-appointment-header-over{ background-color: #D7DFEB; cursor: pointer; }
+div.calendarview-appointment-content { font-size: 10px; padding: 1px 1px 6px 6px; }
+ul.calendarview-appointment-fields { list-style: circle; padding: 5px 0px 3px 14px; }
+span.calendarview-appointment-fields-title { font-weight: bolder; font-style: italic; }
+span.calendarview-appointment-field-description {  }

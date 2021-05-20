@@ -1,0 +1,18 @@
+div.treeview-container {
+	display: block;
+	overflow: auto;
+	margin: 0px;
+	padding: 20px;
+	border: 1px solid #d8d8d8;
+	background-color: #fafafa;
+}
+div.treeview-node { font-size: 10px; white-space: nowrap; }
+div.treeview-text { padding-top: 3px; height: 15px; cursor: pointer; }
+div.treeview-img {
+	float: left;
+	width: 18px;
+	height: 18px;
+	overflow: hidden;
+	background-image: url('../img/std.treeview.gif');
+}
+div.treeview-selected { background-color: #e0f0ff; font-weight: bold; }

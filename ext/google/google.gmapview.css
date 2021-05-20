@@ -1,0 +1,24 @@
+div.mapview-caption {
+    border-style:none;
+    color:#333333;
+    font-weight:normal;
+    margin:0;
+    padding: 8px;
+}
+div.mapview-map { width: 70%; height: 480px; margin: auto; }
+div.mapview-content {
+	display: block;
+	overflow: auto;
+	margin: 0px;
+	padding: 10px;
+	border: 1px solid #d8d8d8;
+	background-color: #fafafa;
+}
+div.mapview-marker { display: none; }
+div.view-toolbar table td { padding: 4px; }
+div.view-toolbar table td select {
+    font-size: 11px;
+    padding: 2px;
+	border: 1px solid #bbb;
+}
+a.mapview-maximize { padding: 0 10px; }

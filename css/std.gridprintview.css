@@ -1,0 +1,81 @@
+@media all
+{
+    body {
+        font-family: verdana, arial, sans-serif;
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    div.gridprintview-container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    div.gridprintview-container div.title {
+        font-size: 18px;
+        padding: 10px;
+        padding-bottom: 4px;
+        margin-top: 60px;
+    }
+
+    div.gridprintview-container div.subtitle {
+        font-size: 10px;
+        padding: 10px;
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+    
+    div.gridprintview-container div.printcontrol {
+        padding: 15px;
+        text-align: center;
+        border-bottom: solid 1px #ccc;
+        margin-bottom: 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #f0f0f0;
+    }
+    
+    div.gridprintview-container div.printcontrol button { padding: 6px; }
+    
+    div.gridprintview-container table {
+        font-family: verdana, arial, sans-serif;
+        font-size: 10px;
+        border-top: 1px solid #444;
+        border-bottom: 1px solid #444;
+        border-collapse: collapse;
+        empty-cells: show;
+        width: 100%;
+    }
+    
+    div.gridprintview-container table thead { display: table-header-group; }
+    
+    div.gridprintview-container table thead tr th {
+        padding: 4px;
+        font-weight: bold;
+        border-bottom: 1px solid #444;
+        text-align: left;
+    }
+    
+    div.gridprintview-container table tbody tr td {
+        padding: 4px;
+        font-weight: normal;
+        border-bottom: 1px solid #ccc;
+        text-align: left;
+        vertical-align: top;
+    }
+}
+
+@media print
+{
+    div.gridprintview-container div.printcontrol {
+        display: none;
+        visibility: collapse;
+    }
+    div.gridprintview-container div.title { margin-top: 6px; }    
+    div.gridprintview-container table tbody tr { page-break-inside: avoid; }
+    div.gridprintview-container table thead tr { page-break-inside: avoid; }
+}

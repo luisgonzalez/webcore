@@ -1,0 +1,113 @@
+div.view-frame { padding-bottom:5px; }
+div.galleryview-container {
+    background: #FFF;
+    border: 1px solid #D8D8D8;
+    height: 600px;
+    overflow: auto;
+}
+div.galleryview-thumbnail {
+    margin: 6px;
+    border: 1px solid #D8D8D8;
+    width: 320px;
+    height: 260px;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+}
+img.galleryview-thumbnail-image { cursor: pointer; margin: auto; border-width: 0; }
+div.galleryview-thumbnail-caption {
+    padding: 10px;
+    clear: both;
+    padding: 4px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #d8d8d8;
+}
+div.galleryview-thumbnail-pin {
+    position: absolute;
+    z-index: 600;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #D8D8D8;
+    background: #000 url(ajax_loader.gif) no-repeat 50%;
+}
+div.galleryview-thumbnail-pin-details {
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    margin: 1px;
+    padding: 10px;
+    border-top: 1px solid #d8d8d8;
+}
+div.galleryview-thumbnail-pin img {
+    border: 1px solid #D8D8D8;
+    cursor: pointer;
+    clear: both;
+    margin: 0;
+}
+div.galleryview-controller {
+	background: url(controller.png) no-repeat;
+	height: 42px;
+	left: 50%;
+	margin: -21px 0 0 -119px;
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	width: 238px;
+	z-index: 10000;
+}
+div.galleryview-controller * {
+	margin: 0;
+	padding: 0;
+}
+div.galleryview-controller-hidden { 
+	opacity: 0;
+}
+div.galleryview-controller-visible {
+	opacity: 1;
+}
+div.galleryview-controller a {
+	cursor: pointer;
+	display: block;
+	height: 18px;
+	overflow: hidden;
+	position: absolute;
+	top: 12px;
+}
+li.galleryview-controller-active a {
+	background-position: 0 18px;
+}
+div.galleryview-controller li {
+	list-style: none;
+}
+li.galleryview-controller-first a {
+	background-image: url(controller-first.gif);
+	left: 33px;
+	width: 19px;
+}
+li.galleryview-controller-last a {
+	background-image: url(controller-last.gif);
+	left: 186px;
+	width: 19px;
+}
+li.galleryview-controller-next a {
+	background-image: url(controller-next.gif);
+	left: 145px;
+	width: 28px;
+}
+li.galleryview-controller-pause a {
+	background-image: url(controller-pause.gif);
+	left: 109px;
+	width: 20px;
+}
+li.galleryview-controller-play a {
+	background-position: 20px 0;
+}
+li.galleryview-controller-play a.active {
+	background-position: 20px 18px;
+}
+li.galleryview-controller-prev a {
+	background-image: url(controller-prev.gif);
+	left: 65px;
+	width: 28px;
+}
